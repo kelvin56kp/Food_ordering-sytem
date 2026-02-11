@@ -1,0 +1,43 @@
+/* ===== STYLE.CSS ===== */
+/*  - Reset, Typography, Layout, Variables */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #fff9f5;
+    color: #1e1e1e;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Orange Color Variable -  */
+:root {
+    --orange: #ff8c42;
+    --orange-dark: #e6762c;
+    --orange-light: #ffb347;
+    --white: #ffffff;
+    --black: #1a1a1a;
+    --gray: #555;
+    --light-gray: #bbb;
+}
+
+/* Typography */
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .container {
+        padding: 0 15px;
+    }
+}
