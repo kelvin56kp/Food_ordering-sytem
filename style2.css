@@ -1,0 +1,268 @@
+/* ===== SECTIONS.CSS ===== */
+/* - Hero, About, Contact, Testimonials, Blog, FAQ, Partners, Newsletter, Footer */
+
+/* ----- HERO SECTION ----- */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+    url('https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 60px 20px 100px;
+    border-radius: 0 0 50px 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.restaurant-name {
+    font-size: 72px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    text-shadow: 4px 4px 20px rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mapo {
+    color: var(--orange);
+    background: rgba(255,255,255,0.1);
+    padding: 0 10px;
+    border-radius: 20px 0 0 20px;
+}
+
+.chopo {
+    color: white;
+    background: rgba(255,140,66,0.3);
+    padding: 0 10px;
+}
+
+.foods {
+    color: var(--orange-light);
+    background: rgba(255,255,255,0.1);
+    padding: 0 10px;
+    border-radius: 0 20px 20px 0;
+}
+
+.tagline {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.sub-tagline {
+    font-size: 18px;
+    opacity: 0.9;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* ----- ABOUT SECTION ----- */
+.about-section {
+    margin-bottom: 80px;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.about-text h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.about-text p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--orange);
+}
+
+/* ----- TESTIMONIALS SECTION ----- */
+.testimonials {
+    margin-bottom: 80px;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* ----- BLOG SECTION ----- */
+.blog-section {
+    margin-bottom: 80px;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* ----- FAQ SECTION ----- */
+.faq-section {
+    margin-bottom: 80px;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+/* ----- PARTNERS SECTION ----- */
+.partners {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px;
+    background: white;
+    border-radius: 60px;
+    margin-bottom: 80px;
+}
+
+.partners i {
+    font-size: 50px;
+    color: var(--orange);
+}
+
+/* ----- CONTACT SECTION ----- */
+.contact-section {
+    margin-bottom: 80px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    background: white;
+    padding: 50px;
+    border-radius: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.contact-info i {
+    color: var(--orange);
+    font-size: 26px;
+    margin-right: 15px;
+}
+
+.contact-info p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+/* ----- NEWSLETTER SECTION ----- */
+.newsletter {
+    background: var(--orange);
+    color: white;
+    padding: 70px 40px;
+    border-radius: 60px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.newsletter h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* ----- FOOTER SECTION ----- */
+footer {
+    background: #1a1a1a;
+    color: #ccc;
+    padding: 60px 0 30px;
+    border-radius: 50px 50px 0 0;
+    margin-top: 80px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.footer-col h4 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.footer-col a {
+    display: block;
+    color: #bbb;
+    text-decoration: none;
+    margin-bottom: 12px;
+    transition: 0.2s;
+}
+
+.footer-col a:hover {
+    color: var(--orange);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid #444;
+}
+
+/* ----- RESPONSIVE SECTIONS ----- */
+@media (max-width: 900px) {
+    .hero {
+        padding: 40px 20px 80px;
+    }
+    
+    .restaurant-name {
+        font-size: 48px;
+    }
+    
+    .tagline {
+        font-size: 20px;
+    }
+    
+    .about-grid, .contact-grid, .footer-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .testimonial-grid, .blog-grid, .faq-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-grid {
+        padding: 30px;
+    }
+    
+    .newsletter {
+        padding: 50px 20px;
+    }
+    
+    .newsletter h3 {
+        font-size: 28px;
+    }
+}
