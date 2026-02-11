@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAPOCHOPOCHO FOODS</title>
+    <!-- Font Awesome 6 (Free Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- CSS EXTERNAL FILES - SEPARATED -->
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+<body>
+
+    <!-- HERO SECTION (PICHA HALISI YA CHAKULA NYUMA) -->
+    <section class="hero">
+        <div class="container">
+            <!-- JINA LA RESTAURANT KWA MUONEKANO MAALUM -->
+            <h1 class="restaurant-name">
+                <span class="mapo">MAPO</span><span class="chopo">CHOPO</span><span class="foods">FOODS</span>
+            </h1>
+            <p class="tagline">Delicious Food, Delivered to Your Doorstep</p>
+            <p class="sub-tagline">Browse our menu, place your order, and enjoy fresh meals from top restaurants!</p>
+            
+            <!-- BUTTON IMESOGEZWA KULIA (FLEX CONTAINER INAIFANYA HIVYO) -->
+            <div class="button-wrapper">
+                <button id="toggleNavBtn" class="menu-btn">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2976/2976215.png" alt="menu icon">
+                </button>
+            </div>
+
+            <!-- NAVIGATION INAYOFUNGUKA BAADA YA BONYEZA BUTTON -->
+            <div id="navMenu" class="nav-menu">
+                <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                <a href="orders.html"><i class="fas fa-shopping-cart"></i> Cart</a>
+                <a href="reviews.html"><i class="fas fa-star"></i> Reviews</a>
+                <a href="login.html"><i class="fas fa-sign-in-alt"></i> Login</a>
+                <a href="register.html"><i class="fas fa-user-plus"></i> Register</a>
+                <a href="#about"><i class="fas fa-info-circle"></i> About</a>
+                <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+                <a href="#blog"><i class="fas fa-blog"></i> Blog</a>
+                <a href="#faq"><i class="fas fa-question-circle"></i> FAQ</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEARCH BAR -->
+    <section class="container search-section">
+        <div class="search-box">
+            <input type="text" placeholder="Search for dishes, restaurants...">
+            <button><i class="fas fa-search"></i> Search</button>
+        </div>
+    </section>
+
+    <!-- OUR MENU SECTION (PICHA HALISI ZA CHAKULA) -->
+    <section class="container">
+        <h2 class="section-title"><i class="fas fa-book-open"></i> Our Menu</h2>
+        <div class="menu-grid">
+            <div class="food-card">
+                <img src="https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>Cheesy & spicy pepperoni</p>
+                <span class="price">$12.99</span>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="food-card">
+                <img src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Burger">
+                <h3>Burger</h3>
+                <p>Beef with fresh veggies</p>
+                <span class="price">$9.99</span>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="food-card">
+                <img src="https://images.pexels.com/photos/2323398/pexels-photo-2323398.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sushi">
+                <h3>Sushi</h3>
+                <p>Fresh salmon & avocado</p>
+                <span class="price">$15.99</span>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <div class="food-card">
+                <img src="https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Salad">
+                <h3>Salad</h3>
+                <p>Healthy green mix</p>
+                <span class="price">$7.99</span>
+                <button class="order-btn">Order Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="container about-section">
+        <div class="about-grid">
+            <div class="about-text">
+                <h3>About Us</h3>
+                <p>We are on a mission to bring the tastiest meals from the best restaurants straight to your door. Fast, fresh, and reliable — that's our promise.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-number">5K+</div>
+                        <div>Daily Orders</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">300+</div>
+                        <div>Restaurants</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50K+</div>
+                        <div>Happy Clients</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Chef cooking" style="width:100%; border-radius: 30px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="container testimonials">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <i class="fas fa-quote-left"></i>
+                <p>"Fastest delivery in town! The food arrived hot and fresh."</p>
+                <h4>— Amina Juma</h4>
+            </div>
+            <div class="testimonial-card">
+                <i class="fas fa-quote-left"></i>
+                <p>"Amazing platform, so many restaurants to choose from."</p>
+                <h4>— John Mwangi</h4>
+            </div>
+            <div class="testimonial-card">
+                <i class="fas fa-quote-left"></i>
+                <p>"Easy to use and customer support is super helpful."</p>
+                <h4>— Grace Akinyi</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG SECTION -->
+    <section id="blog" class="container blog-section">
+        <h2 class="section-title">Latest from Our Blog</h2>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Healthy food">
+                <h3>5 Tips for Healthy Eating</h3>
+                <p>Simple swaps to make your meals healthier without losing flavor.</p>
+            </div>
+            <div class="blog-card">
+                <img src="https://images.pexels.com/photos/4393021/pexels-photo-4393021.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Delivery">
+                <h3>How We Keep Food Hot</h3>
+                <p>Our special packaging keeps your food warm for 45+ minutes.</p>
+            </div>
+            <div class="blog-card">
+                <img src="https://images.pexels.com/photos/1267696/pexels-photo-1267696.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Restaurant">
+                <h3>Top 10 Restaurants 2026</h3>
+                <p>Check out the most loved restaurants on our platform.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="faq" class="container faq-section">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <h4>❓ How long does delivery take?</h4>
+                <p>Usually between 25–40 minutes depending on your location.</p>
+            </div>
+            <div class="faq-item">
+                <h4>❓ Do you offer vegetarian options?</h4>
+                <p>Yes! We have a full vegetarian and vegan menu.</p>
+            </div>
+            <div class="faq-item">
+                <h4>❓ Can I track my order?</h4>
+                <p>Absolutely. Real-time tracking is available in the app.</p>
+            </div>
+            <div class="faq-item">
+                <h4>❓ Is there a minimum order?</h4>
+                <p>Minimum order is $5.99.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARTNERS / BRANDS -->
+    <section class="container partners">
+        <i class="fas fa-utensil-spoon"></i>
+        <i class="fas fa-pizza-slice"></i>
+        <i class="fas fa-cookie"></i>
+        <i class="fas fa-apple-alt"></i>
+        <i class="fas fa-coffee"></i>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="container contact-section">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> 123 Food Street, Dar es Salaam</p>
+                <p><i class="fas fa-phone-alt"></i> +255 712 345 678</p>
+                <p><i class="fas fa-envelope"></i> info@mapochopochofoods.com</p>
+                <div class="social-icons" style="margin-top: 30px;">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+            <div class="contact-form">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea rows="4" placeholder="Your Message"></textarea>
+                <button>Send Message</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="container newsletter">
+        <h3>Subscribe to Our Newsletter</h3>
+        <p>Get daily deals, new restaurant alerts, and exclusive offers.</p>
+        <div class="newsletter-input">
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>MAPOCHOPOCHO</h4>
+                    <p style="color: #bbb;">Fast, fresh, delivered.</p>
+                    <div class="social-icons">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="#">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="#">FAQ</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Refund Policy</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Download App</h4>
+                    <a href="#">iOS</a>
+                    <a href="#">Android</a>
+                    <a href="#">Get $5 off</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MAPOCHOPOCHO FOODS. All rights reserved. 🇹🇿 Designed with ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const toggleBtn = document.getElementById('toggleNavBtn');
+        const navMenu = document.getElementById('navMenu');
+
+        window.onload = function() {
+            navMenu.style.display = 'none';
+        };
+
+        toggleBtn.addEventListener('click', function() {
+            if (navMenu.style.display === 'flex') {
+                navMenu.style.display = 'none';
+            } else {
+                navMenu.style.display = 'flex';
+            }
+        });
+    </script>
+</body>
+</html>
